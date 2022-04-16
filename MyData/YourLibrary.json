@@ -1,0 +1,325 @@
+{
+  "tracks": [
+  ],
+  "albums": [
+    {
+      "artist": "Opeth",
+      "album": "Ghost Reveries",
+      "uri": "spotify:album:74QPd1WqK8kTsVNtHdBzJ8"
+    },
+    {
+      "artist": "Volbeat",
+      "album": "Guitar Gangsters & Cadillac Blood",
+      "uri": "spotify:album:6QHLhOasL7wk8EduGT7iD8"
+    },
+    {
+      "artist": "They Might Be Giants",
+      "album": "Flood",
+      "uri": "spotify:album:7FwAtuhhWivxvK4aPgyyUD"
+    },
+    {
+      "artist": "Valve Studio Orchestra",
+      "album": "Fight Songs: The Music of Team Fortress 2",
+      "uri": "spotify:album:11TywRtTHs1DbBChEkRV7I"
+    },
+    {
+      "artist": "Gojira",
+      "album": "Magma",
+      "uri": "spotify:album:7D7V6M05UIOTjLdqbwRX0w"
+    },
+    {
+      "artist": "Chris Botti",
+      "album": "Chris Botti In Boston",
+      "uri": "spotify:album:7eqXkQU3ltueMnr7MWaN2N"
+    },
+    {
+      "artist": "Gojira",
+      "album": "From Mars to Sirius",
+      "uri": "spotify:album:649Pw0BSJIufilSgkogX9A"
+    },
+    {
+      "artist": "Metallica",
+      "album": "Load",
+      "uri": "spotify:album:5rI3pfrpvmdYtGAsBwaGec"
+    },
+    {
+      "artist": "Fourplay",
+      "album": "Between The Sheets",
+      "uri": "spotify:album:2CyNaBGKh2FINqMJvTfg4T"
+    },
+    {
+      "artist": "Metalocalypse: Dethklok",
+      "album": "The Dethalbum",
+      "uri": "spotify:album:6YVSzU89AisNDfVK4HUt69"
+    },
+    {
+      "artist": "Gojira",
+      "album": "L'Enfant Sauvage",
+      "uri": "spotify:album:5dxqD5Kc6cRRi3rErmDfXG"
+    },
+    {
+      "artist": "Sabaton",
+      "album": "Bismarck",
+      "uri": "spotify:album:5gtzV4Tbw1IBRkLuSE8APH"
+    },
+    {
+      "artist": "Chris Botti",
+      "album": "Impressions",
+      "uri": "spotify:album:5aCnLqnPlBRk7yZ4xQSQec"
+    },
+    {
+      "artist": "Tally Hall",
+      "album": "Good & Evil",
+      "uri": "spotify:album:2Vq0Y8wgiZRYtZ1mQ7zOMG"
+    },
+    {
+      "artist": "Video Game Players",
+      "album": "The Ocarina of Time Collection (Theme Songs From \"The Legend of Zelda\")",
+      "uri": "spotify:album:4o2M5oBuy4jjJesyHlgfec"
+    },
+    {
+      "artist": "They Might Be Giants",
+      "album": "Severe Tire Damage",
+      "uri": "spotify:album:3Ww5ZsMGQH4F1Sf16ZztOh"
+    },
+    {
+      "artist": "Gojira",
+      "album": "Fortitude",
+      "uri": "spotify:album:3bmdzJRZ4DLRTiA6yBBQcI"
+    },
+    {
+      "artist": "Buckethead",
+      "album": "Colma",
+      "uri": "spotify:album:0LBQdWnuV0CAXyPIngb0UX"
+    },
+    {
+      "artist": "Michael Bublé",
+      "album": "Michael Bublé",
+      "uri": "spotify:album:3rpSksJSFdNFqk5vne8at2"
+    },
+    {
+      "artist": "John Williams",
+      "album": "Star Wars: Attack of the Clones",
+      "uri": "spotify:album:4RSVY5851aNeCttrDpdj7A"
+    },
+    {
+      "artist": "Ennio Morricone",
+      "album": "The Good, The Bad & The Ugly",
+      "uri": "spotify:album:1oLT2HO5MVNS8U4kEuBvdJ"
+    },
+    {
+      "artist": "John Williams",
+      "album": "Star Wars: Revenge of the Sith",
+      "uri": "spotify:album:6zhlos3HFJrWni7rjqxacg"
+    },
+    {
+      "artist": "Sabaton",
+      "album": "The Art Of War",
+      "uri": "spotify:album:3zZl82Hq5jeK21uPPD0BF3"
+    },
+    {
+      "artist": "Sabaton",
+      "album": "The Last Stand",
+      "uri": "spotify:album:3KePhGKcmAXACdYBFtILDX"
+    },
+    {
+      "artist": "Chris Botti",
+      "album": "When I Fall In Love",
+      "uri": "spotify:album:5Qyx80BQxegTNdvdDkjwJu"
+    },
+    {
+      "artist": "Sabaton",
+      "album": "The Great War",
+      "uri": "spotify:album:01lzBqjkGkOBavcezVSRk5"
+    },
+    {
+      "artist": "Metallica",
+      "album": "Ride The Lightning (Remastered)",
+      "uri": "spotify:album:1nTvIQEXvygqSIqc2vuwAz"
+    },
+    {
+      "artist": "Opeth",
+      "album": "Blackwater Park",
+      "uri": "spotify:album:3CCkWrqhWcKU7qXK3ooEEo"
+    },
+    {
+      "artist": "Styx",
+      "album": "Greatest Hits",
+      "uri": "spotify:album:2ga0vPHTWrsES8MMt9gEBq"
+    },
+    {
+      "artist": "John Williams",
+      "album": "Star Wars: A New Hope",
+      "uri": "spotify:album:55gMu4AvAKCbCaGv3GIXgy"
+    },
+    {
+      "artist": "Metallica",
+      "album": "Reload",
+      "uri": "spotify:album:7KDqRmr937ylvGilPGWxfD"
+    },
+    {
+      "artist": "John Williams",
+      "album": "Star Wars: The Phantom Menace",
+      "uri": "spotify:album:45EFycwtfRhnDPWbc2mClK"
+    },
+    {
+      "artist": "Miles Davis",
+      "album": "Kind Of Blue",
+      "uri": "spotify:album:1weenld61qoidwYuZ1GESA"
+    },
+    {
+      "artist": "Metallica",
+      "album": "Master of Puppets (Remastered)",
+      "uri": "spotify:album:5gzLOflH95LkKYE6XSXE9k"
+    },
+    {
+      "artist": "Gorillaz",
+      "album": "The Fall",
+      "uri": "spotify:album:5jJGGsAztgUEXUHHZ2zrah"
+    },
+    {
+      "artist": "Gojira",
+      "album": "L'Enfant Sauvage",
+      "uri": "spotify:album:2WrU1VLLBaZy4k5s0p5jzt"
+    },
+    {
+      "artist": "Gojira",
+      "album": "The Way of all Flesh",
+      "uri": "spotify:album:0OAWwL9eFzu2FHdI1EsDYQ"
+    }
+  ],
+  "shows": [
+    {
+      "name": "20 Sided Stories",
+      "publisher": "Sage G.C.",
+      "uri": "spotify:show:4Iu1UiAXPvkaHLOYMUTGc5"
+    },
+    {
+      "name": "Androids & Aliens",
+      "publisher": "The Glass Cannon Network",
+      "uri": "spotify:show:79SZy6vEKGKcETkpd4GhoP"
+    },
+    {
+      "name": "ChooseFI | Financial Independence Podcast",
+      "publisher": "Jonathan Mendonsa & Brad Barrett | Choose FI",
+      "uri": "spotify:show:2NIvOEIbBObyodPmW1EVD1"
+    },
+    {
+      "name": "Critical Role",
+      "publisher": "Nerdist Industries",
+      "uri": "spotify:show:17hv7QBlDgyil26UTIHHs6"
+    },
+    {
+      "name": "Duncan Trussell Family Hour",
+      "publisher": "Duncan Trussell Family Hour",
+      "uri": "spotify:show:1Wz3JX3ZNE24lnbSroRmpq"
+    },
+    {
+      "name": "Dungeon Master's Block",
+      "publisher": "Block Party Podcast Network",
+      "uri": "spotify:show:2AqNGKBprlwCNopQM6kxc3"
+    },
+    {
+      "name": "Dungeons and Daddies",
+      "publisher": "Dungeons and Daddies",
+      "uri": "spotify:show:5Sffly5o4mPetmnTR9zsWh"
+    },
+    {
+      "name": "LeVar Burton Reads",
+      "publisher": "LeVar Burton and Stitcher",
+      "uri": "spotify:show:21yjAjzYXD1xCNDad4OdTV"
+    },
+    {
+      "name": "Mission To Zyxx",
+      "publisher": "Mission To Zyxx",
+      "uri": "spotify:show:0SSOBoFWUehoDvpbTtRgHS"
+    },
+    {
+      "name": "My Brother, My Brother And Me",
+      "publisher": "The McElroys",
+      "uri": "spotify:show:308BQUUnIkoH2UAXJCAt0g"
+    },
+    {
+      "name": "Old Gods of Appalachia",
+      "publisher": "DeepNerd Media",
+      "uri": "spotify:show:0rOkFpkORBFMEIHfV0YKzJ"
+    },
+    {
+      "name": "The Adventure Zone",
+      "publisher": "The McElroys",
+      "uri": "spotify:show:6OoAQesdLgYBOyfx8ji0bZ"
+    },
+    {
+      "name": "The Command Zone",
+      "publisher": "The Command Zone",
+      "uri": "spotify:show:2YzQANpNmuF24PpP1HNKT4"
+    }
+  ],
+  "episodes": [
+    {
+      "name": "MBMBaM 560: Starter in the Jarter",
+      "show": "My Brother, My Brother And Me",
+      "uri": "spotify:episode:0eWWJ1YWkiqwdlEYr1ds8d"
+    },
+    {
+      "name": "MBMBaM 557: Morgan Beeman Strikes Again",
+      "show": "My Brother, My Brother And Me",
+      "uri": "spotify:episode:51l9SYI2HS87L5RC28IcVg"
+    },
+    {
+      "name": "MBMBaM 561: Bless My Farts",
+      "show": "My Brother, My Brother And Me",
+      "uri": "spotify:episode:23wF8PYjqe2ulcG5wTMCVf"
+    },
+    {
+      "name": "MBMBaM 558: The Star of the Sandwich Show",
+      "show": "My Brother, My Brother And Me",
+      "uri": "spotify:episode:5Oj8qffgOPkWmv9pXgZ9cp"
+    },
+    {
+      "name": "MBMBaM 559: The Moon Sent Me",
+      "show": "My Brother, My Brother And Me",
+      "uri": "spotify:episode:4BxpD6ZJlpiTm8Iut0eOYO"
+    }
+  ],
+  "bannedTracks": [
+  ],
+  "artists": [
+    {
+      "name": "Altermind",
+      "uri": "spotify:artist:5IjMYiKGnd55PwdgGiWDfq"
+    },
+    {
+      "name": "Animals As Leaders",
+      "uri": "spotify:artist:65C6Unk7nhg2aCnVuAPMo8"
+    },
+    {
+      "name": "Cannonball Adderley",
+      "uri": "spotify:artist:5v74mT11KGJqadf9sLw4dA"
+    },
+    {
+      "name": "Dream Theater",
+      "uri": "spotify:artist:2aaLAng2L2aWD2FClzwiep"
+    },
+    {
+      "name": "John Coltrane",
+      "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+    },
+    {
+      "name": "Metallica",
+      "uri": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
+    },
+    {
+      "name": "Oliver Nelson",
+      "uri": "spotify:artist:2nQKUeZeleLGNsJj6WLUXN"
+    },
+    {
+      "name": "Sabaton",
+      "uri": "spotify:artist:3o2dn2O0FCVsWDFSh8qxgG"
+    }
+  ],
+  "bannedArtists": [
+  ],
+  "other": [
+  ]
+}
