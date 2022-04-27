@@ -7,8 +7,8 @@ testbox = st.SpotifyToybox(test_file)
 print(testbox.stream_time(), testbox.stream_time(True),
       testbox.stream_time(False, True), testbox.stream_time(True, True))
 
-start = datetime.strptime("10/01/2021", '%b %d %Y').date()
-end = datetime.strptime("12/31/2021", '%b %d %Y').date()
+start = datetime.strptime("10/01/2021", '%m/%d/%Y').date()
+end = datetime.strptime("12/31/2021", '%m/%d/%Y').date()
 test_times = testbox.artist_times(True, True, True, start, end)
 for time in test_times:
     print(time, test_times[time])

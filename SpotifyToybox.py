@@ -12,11 +12,18 @@ class SpotifyToybox:
     # convert_time converts the millisecond times to a string with Hours, Minutes, and Seconds
     # sort_desc sorts the times in descending order
     # exclude_short leaves out any track that played less than a minute
-    def stream_time(self, convert_time=False, exclude_short=False):
+    def stream_time(self, convert_time=False, exclude_short=False,
+                    start_date=None, end_date=None):
         total_time = 0
         for entry in self.data:
             playtime = entry["msPlayed"]
+            date_string = entry["endTime"][:10]
+            play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
             if exclude_short and playtime < 60000:
+                continue
+            if start_date and play_date < start_date:
+                continue
+            if end_date and play_date > end_date:
                 continue
             else:
                 total_time += playtime
@@ -35,7 +42,8 @@ class SpotifyToybox:
         for entry in self.data:
             artist = entry["artistName"]
             playtime = entry["msPlayed"]
-            play_date = datetime.strptime(entry["endTime"], '%b %d %Y').date()
+            date_string = entry["endTime"][:10]
+            play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
             if exclude_short and playtime < 60000:
                 continue
             if start_date and play_date < start_date:
@@ -57,13 +65,20 @@ class SpotifyToybox:
     # Returns how many times songs by each artist have been streamed
     # sort_desc sorts the artists in descending order of streams
     # exclude_short leaves out any track that played less than a minute
-    def artist_streams(self, sort_desc=False, exclude_short=False):
+    def artist_streams(self, sort_desc=False, exclude_short=False,
+                       start_date=None, end_date=None):
         artists = []
         artist_streams = {}
         for entry in self.data:
             artist = entry["artistName"]
             playtime = entry["msPlayed"]
+            date_string = entry["endTime"][:10]
+            play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
             if exclude_short and playtime < 60000:
+                continue
+            if start_date and play_date < start_date:
+                continue
+            if end_date and play_date > end_date:
                 continue
             if artist not in artists:
                 artists.append(artist)
