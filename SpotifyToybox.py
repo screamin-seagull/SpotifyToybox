@@ -44,7 +44,7 @@ class SpotifyToybox:
             playtime = entry["msPlayed"]
             date_string = entry["endTime"][:10]
             play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
-            if exclude_short and playtime < 60000:
+            if exclude_short and playtime < 20000:
                 continue
             if start_date and play_date < start_date:
                 continue
@@ -74,7 +74,7 @@ class SpotifyToybox:
             playtime = entry["msPlayed"]
             date_string = entry["endTime"][:10]
             play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
-            if exclude_short and playtime < 60000:
+            if exclude_short and playtime < 20000:
                 continue
             if start_date and play_date < start_date:
                 continue
