@@ -42,6 +42,7 @@ class SpotifyToybox:
         for entry in self.data:
             artist = entry["artistName"]
             playtime = entry["msPlayed"]
+            track = entry["trackName"]
             date_string = entry["endTime"][:10]
             play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
             if exclude_short and playtime < 20000:
@@ -49,6 +50,8 @@ class SpotifyToybox:
             if start_date and play_date < start_date:
                 continue
             if end_date and play_date > end_date:
+                continue
+            if "Episode" in track and " - " in track:
                 continue
             if artist not in artists:
                 artists.append(artist)
@@ -71,6 +74,7 @@ class SpotifyToybox:
         artist_streams = {}
         for entry in self.data:
             artist = entry["artistName"]
+            track = entry["trackName"]
             playtime = entry["msPlayed"]
             date_string = entry["endTime"][:10]
             play_date = datetime.strptime(date_string, '%Y-%m-%d').date()
@@ -79,6 +83,8 @@ class SpotifyToybox:
             if start_date and play_date < start_date:
                 continue
             if end_date and play_date > end_date:
+                continue
+            if "Episode" in track and " - " in track:
                 continue
             if artist not in artists:
                 artists.append(artist)
