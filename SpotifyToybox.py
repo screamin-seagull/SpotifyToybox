@@ -147,3 +147,11 @@ def combine_json(files=[], new_filename="combined.json"):
             res_file.extend(json.load(addfile))
     with open(new_filename, 'w', encoding='utf-8') as output:
         json.dump(res_file, output)
+
+
+# Takes a json file and removes all data not relevant to this library
+# Combined files tend to be extremely large and hard to work with
+def clean_json(file, new_file="clean.json"):
+    with open(file, 'r', encoding='utf-8') as readfile:
+        content = json.load(readfile)
+        print(content)

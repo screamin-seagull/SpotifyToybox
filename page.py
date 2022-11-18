@@ -8,7 +8,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-test_file = "JSON Files/combined.json"
+test_file = "JSON Files/jordan_data.json"
 testbox = st.SpotifyToybox(test_file)
 
 

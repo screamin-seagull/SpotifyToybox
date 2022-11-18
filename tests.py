@@ -1,7 +1,13 @@
 import SpotifyToybox as st
 from datetime import datetime
+import os
 
-test_file = "JSON Files/endsong_0.json"
+'''files = []
+for file in os.listdir("JSON Files"):
+    files.append("JSON FIles/" + file)
+st.combine_json(files, "jordan_data.json")'''
+st.clean_json("JSON Files/endsong_0.json")
+'''test_file = "JSON Files/jordan_data.json"
 
 testbox = st.SpotifyToybox(test_file)
 print(testbox.stream_time(), testbox.stream_time(True),
@@ -23,3 +29,4 @@ for i in top5_streams:
 top5 = testbox.top_artists_time(True)
 for i in top5:
     print(i, top5[i])
+'''
